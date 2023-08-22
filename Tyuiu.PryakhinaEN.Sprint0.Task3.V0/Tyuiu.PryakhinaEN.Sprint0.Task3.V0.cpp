@@ -1,16 +1,15 @@
-// Tyuiu.PryakhinaEN.Sprint0.Task2.V0.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Tyuiu.PryakhinaEN.Sprint0.Task3.V0.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include "../Tyuiu.PryakhinaEN.Sprint0.Task2.V0.Lib/Tyuiu.PryakhinaEN.Sprint0.Task2.V0.Lib.cpp"
-
+#include "../Tyuiu.PryakhinaEN.Sprint0.Task3.V0.Lib/Tyuiu.PryakhinaEN.Sprint0.Task3.V0.Lib.cpp"
 int main()
 {
-    ISprint0Task2V0* service = new Service();
-    std::cout << "PetrovIA\n";
-    std::cout << "Result 8+12=" << service->Add(8, 12);
-
-   
+    ISprint0Task3V0* date = new Service1();
+    std::cout << "PetrovCA\n";
+    std::cout << "P = a+b+c:  "<<"10, 11, 5\n";
+    std::cout << "Rezult = " << date->Add(10,11,5);
+    std::cout << std:: endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
